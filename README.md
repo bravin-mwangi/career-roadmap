@@ -12,6 +12,7 @@ preparation, university, and the professional path beyond.
 ## Status
 Pre-university phase — working through foundational preparation 
 before university begins.
+
 → [Progress Journal](JOURNAL.md)
 ---
 
