@@ -6,7 +6,7 @@ preparation, university, and the professional path beyond.
 **Started:** June 2026  
 **Degree:** Incoming Mathematics & Computer Science undergraduate  
 **Long-term direction:** AI Security and the CAISO path
-
+→ [Progress Journal](JOURNAL.md)
 ---
 
 ## Status
