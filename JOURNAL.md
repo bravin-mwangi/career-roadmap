@@ -31,4 +31,4 @@ for the port, user, and host.
 Targeting Level 1 next.
 
 ---
-*Next entry will follow the first completed checklist item.*
+
