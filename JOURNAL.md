@@ -22,4 +22,13 @@ a small word that matters a lot when integrity is part of the career
 you're building.
 
 ---
+
+## Entry 002 — June 2026
+
+Completed OverTheWire Bandit Level 0 via Linux terminal. The command 
+clicked once I saw it as one full address instead of separate parts 
+for the port, user, and host. 
+Targeting Level 1 next.
+
+---
 *Next entry will follow the first completed checklist item.*
