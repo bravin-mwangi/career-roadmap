@@ -32,3 +32,11 @@ Targeting Level 1 next.
 
 ---
 
+## Entry 003 — July 2026
+
+Completed OverTheWire Bandit Level 1 via Linux terminal. The password
+file was already in the home directory, ls showed it right away and
+cat read the contents. The location question and permissions
+model clicked here. 
+Next: Level 3.
+
