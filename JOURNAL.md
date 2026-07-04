@@ -25,18 +25,18 @@ you're building.
 
 ## Entry 002 — June 2026
 
-Completed OverTheWire Bandit Level 0 via Linux terminal. The command 
-clicked once I saw it as one full address instead of separate parts 
-for the port, user, and host. 
-Targeting Level 1 next.
+Completed OverTheWire Bandit Level 0 using the Linux command line interface. Once I viewed the command as one big address rather than separating the port, user, and host, it finally clicked. Targeting Level 1 next.
 
 ---
 
 ## Entry 003 — July 2026
 
-Completed OverTheWire Bandit Level 1 via Linux terminal. The password
-file was already in the home directory, ls showed it right away and
-cat read the contents. The location question and permissions
-model clicked here. 
-Next: Level 3.
+Using my Linux terminal, I finished Bandit Level 1 from OverTheWire. The password was found at the home directory; I could see that with the "ls" command and I could use the "cat" command to output what was in the file. The questions about locations and the permission system made sense. Proceeding to Level 2. 
 
+---
+
+## Entry 004 — July 2026
+
+I finished Bandit Level 2 from OverTheWire using the Linux command line interface. The file with the name '-' did not be get recognized as it was treated as a special input and worked when i added './' giving it an explicit path. On to Level 3.
+
+---
