@@ -4,14 +4,15 @@ A structured record of my journey into AI security — covering
 preparation, university, and the professional path beyond.
 
 **Started:** June 2026  
-**Degree:** Incoming Mathematics & Computer Science undergraduate  
+**Degree:** BSc Mathematics & Computer Science — MMU Kenya (Year 1)  
 **Long-term direction:** AI Security and the CAISO path
 
 ---
 
 ## Status
-Pre-university phase — working through foundational preparation 
-before university begins.
+
+Year 1, Semester 1 — MCS @ Multimedia University of Kenya
+September 2026 · Lectures underway
 
 → [Progress Journal](JOURNAL.md)
 ---
