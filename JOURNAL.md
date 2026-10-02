@@ -49,6 +49,13 @@ Officially started MCS Year 1 at MMU. Installed WSL2 and Ubuntu on my laptop. Py
 
 ## Entry 006 — October 2026
 
-Completed OverTheWire Bandit Level 3 via Linux terminal. The file name had spaces and started with -- and only worked once I wrapped it in quotes (so the shell treated it as one argument) and used ./ for the current directory. This helped me understand how the shell reads file names. Next: Level 4.
+Completed OverTheWire Bandit Level 3 via Linux terminal. The file name had spaces and started with '--' and only worked once I wrapped it in quotes (so the shell treated it as one argument) and used './' for the current directory. This helped me understand how the shell reads file names. Next: Level 4.
 
 ---
+
+## Entry 007 — October 2026
+
+Completed OverTheWire Bandit Level 4. I learned how to navigate into a directory using 'cd', and how 'ls -a' reveals hidden files that a normal 'ls' does not show. I also learned the difference between '.' (current directory) and '..' (parent directory). The hidden file was named '...Hiding-From-You', which I read using its explicit path.
+
+---
+
