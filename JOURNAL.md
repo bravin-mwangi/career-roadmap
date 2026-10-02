@@ -37,12 +37,18 @@ Using my Linux terminal, I finished Bandit Level 1 from OverTheWire. The passwor
 
 ## Entry 004 — July 2026
 
-I finished Bandit Level 2 from OverTheWire using the Linux command line interface. The file with the name '-' did not be get recognized as it was treated as a special input and worked when i added './' giving it an explicit path. On to Level 3.
+I finished Bandit Level 2 from OverTheWire using the Linux command line interface. The file with the name '-' did not get recognized as it was treated as a special input and worked when i added './' giving it an explicit path. On to Level 3.
 
 ---
 
 ## Entry 005 — September 2026
 
 Officially started MCS Year 1 at MMU. Installed WSL2 and Ubuntu on my laptop. Python 3.14.4 and Git 2.53.0 running. Resumed OverTheWire Bandit — targeting Level 3 this week. First university lectures begin this week.
+
+---
+
+## Entry 006 — October 2026
+
+Completed OverTheWire Bandit Level 3 via Linux terminal. The file name had spaces and started with -- and only worked once I wrapped it in quotes (so the shell treated it as one argument) and used ./ for the current directory. This helped me understand how the shell reads file names. Next: Level 4.
 
 ---
