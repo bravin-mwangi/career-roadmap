@@ -64,3 +64,9 @@ Completed OverTheWire Bandit Level 4. I learned how to navigate into a directory
 Completed OverTheWire Bandit Level 5. The password was stored in the only human-readable file inside the `inhere` directory. I learned how to use the `file` command to identify file types and the `*` wildcard to apply a command to multiple files at once. Using `file ./` let me check all the files and identify the one containing ASCII text, which I then read to get the password.
 
 ---
+
+## Entry 009 — October 2026
+
+Completed OverTheWire Bandit Level 6. The password was hidden somewhere inside the `inhere` directory among many files and directories, with specific properties: it had to be human-readable, exactly 1033 bytes, and not executable. I learned how to use `find` recursively and combine multiple conditions to narrow down a search. I used `-type f` to target regular files, `-readable` for readable files, `! -executable` for non-executable files, and `-size 1033c` to match the exact file size. This level helped me understand how command-line tools can filter large amounts of data using multiple conditions instead of checking everything manually.
+
+---
