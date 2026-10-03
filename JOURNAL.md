@@ -31,13 +31,13 @@ Completed OverTheWire Bandit Level 0 using the Linux command line interface. Onc
 
 ## Entry 003 — July 2026
 
-Using my Linux terminal, I finished Bandit Level 1 from OverTheWire. The password was found at the home directory; I could see that with the "ls" command and I could use the "cat" command to output what was in the file. The questions about locations and the permission system made sense. Proceeding to Level 2. 
+Using my Linux terminal, I finished Bandit Level 1 from OverTheWire. The password was found at the home directory; I could see that with the `ls` command and I could use the `cat` command to output what was in the file. The questions about locations and the permission system made sense. Proceeding to Level 2. 
 
 ---
 
 ## Entry 004 — July 2026
 
-I finished Bandit Level 2 from OverTheWire using the Linux command line interface. The file with the name '-' did not get recognized as it was treated as a special input and worked when i added './' giving it an explicit path. On to Level 3.
+I finished Bandit Level 2 from OverTheWire using the Linux command line interface. The file with the name `-` did not get recognized as it was treated as a special input and worked when i added `./` giving it an explicit path. On to Level 3.
 
 ---
 
@@ -49,18 +49,18 @@ Officially started MCS Year 1 at MMU. Installed WSL2 and Ubuntu on my laptop. Py
 
 ## Entry 006 — October 2026
 
-Completed OverTheWire Bandit Level 3 via Linux terminal. The file name had spaces and started with '--' and only worked once I wrapped it in quotes (so the shell treated it as one argument) and used './' for the current directory. This helped me understand how the shell reads file names. Next: Level 4.
+Completed OverTheWire Bandit Level 3 via Linux terminal. The file name had spaces and started with `--` and only worked once I wrapped it in quotes (so the shell treated it as one argument) and used `./` for the current directory. This helped me understand how the shell reads file names. Next: Level 4.
 
 ---
 
 ## Entry 007 — October 2026
 
-Completed OverTheWire Bandit Level 4. I learned how to navigate into a directory using 'cd', and how 'ls -a' reveals hidden files that a normal 'ls' does not show. I also learned the difference between '.' (current directory) and '..' (parent directory). The hidden file was named '...Hiding-From-You', which I read using its explicit path.
+Completed OverTheWire Bandit Level 4. I learned how to navigate into a directory using `cd`, and how `ls -a` reveals hidden files that a normal `ls` does not show. I also learned the difference between `.` (current directory) and `..` (parent directory). The hidden file was named `...Hiding-From-You`, which I read using its explicit path.
 
 ---
 
 ## Entry 008 — October 2026
 
-Completed OverTheWire Bandit Level 5. The password was stored in the only human-readable file inside the 'inhere' directory. I learned how to use the `file` command to identify file types and the `*` wildcard to apply a command to multiple files at once. Using 'file ./' let me check all the files and identify the one containing ASCII text, which I then read to get the password.
+Completed OverTheWire Bandit Level 5. The password was stored in the only human-readable file inside the `inhere` directory. I learned how to use the `file` command to identify file types and the `*` wildcard to apply a command to multiple files at once. Using `file ./` let me check all the files and identify the one containing ASCII text, which I then read to get the password.
 
 ---
