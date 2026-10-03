@@ -59,3 +59,8 @@ Completed OverTheWire Bandit Level 4. I learned how to navigate into a directory
 
 ---
 
+## Entry 008 — October 2026
+
+Completed OverTheWire Bandit Level 5. The password was stored in the only human-readable file inside the 'inhere' directory. I learned how to use the `file` command to identify file types and the `*` wildcard to apply a command to multiple files at once. Using 'file ./' let me check all the files and identify the one containing ASCII text, which I then read to get the password.
+
+---
