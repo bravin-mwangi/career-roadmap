@@ -70,3 +70,9 @@ Completed OverTheWire Bandit Level 5. The password was stored in the only human-
 Completed OverTheWire Bandit Level 6. The password was hidden somewhere inside the `inhere` directory among many files and directories, with specific properties: it had to be human-readable, exactly 1033 bytes, and not executable. I learned how to use `find` recursively and combine multiple conditions to narrow down a search. I used `-type f` to target regular files, `-readable` for readable files, `! -executable` for non-executable files, and `-size 1033c` to match the exact file size. This level helped me understand how command-line tools can filter large amounts of data using multiple conditions instead of checking everything manually.
 
 ---
+
+## Entry 010 — October 2026
+
+Completed OverTheWire Bandit Level 7. The password was stored somewhere on the server in a 33-byte file owned by user `bandit7` and group `bandit6`. I learned how to use `find` from the root directory (`/`) and filter results using file ownership with `-user` and `-group`, along with `-size` for the exact file size. I also learned the difference between relative and absolute paths. An absolute path such as `/var/lib/dpkg/info/bandit7.password` can be accessed directly regardless of my current directory, so I do not need to navigate through each parent directory first. This level showed me how much more efficient targeted searching can be than manually exploring the filesystem.
+
+---
