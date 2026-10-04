@@ -76,3 +76,9 @@ Completed OverTheWire Bandit Level 6. The password was hidden somewhere inside t
 Completed OverTheWire Bandit Level 7. The password was stored somewhere on the server in a 33-byte file owned by user `bandit7` and group `bandit6`. I learned how to use `find` from the root directory (`/`) and filter results using file ownership with `-user` and `-group`, along with `-size` for the exact file size. I also learned the difference between relative and absolute paths. An absolute path such as `/var/lib/dpkg/info/bandit7.password` can be accessed directly regardless of my current directory, so I do not need to navigate through each parent directory first. This level showed me how much more efficient targeted searching can be than manually exploring the filesystem.
 
 ---
+
+## Entry 011 — October 2026
+
+Completed OverTheWire Bandit Level 8. The password was stored in `data.txt` next to the word `millionth`. I learned how to use `grep` to search for specific text within a file. I also reinforced the difference between locating a file and being able to access its contents: I initially found `/home/bandit7/data.txt` while logged in as `bandit6`, but could not read it because of file permissions. After logging into `bandit7`, I could access the file and use `grep` to find the required line. This level helped me understand both basic text searching and Linux file permissions.
+
+---
