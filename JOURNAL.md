@@ -82,3 +82,15 @@ Completed OverTheWire Bandit Level 7. The password was stored somewhere on the s
 Completed OverTheWire Bandit Level 8. The password was stored in `data.txt` next to the word `millionth`. I learned how to use `grep` to search for specific text within a file. I also reinforced the difference between locating a file and being able to access its contents: I initially found `/home/bandit7/data.txt` while logged in as `bandit6`, but could not read it because of file permissions. After logging into `bandit7`, I could access the file and use `grep` to find the required line. This level helped me understand both basic text searching and Linux file permissions.
 
 ---
+
+## Entry 012 — October 2026
+
+Completed OverTheWire Bandit Level 9. The password was the only line in `data.txt` that occurred exactly once among many repeated lines.
+
+I learned how to combine multiple command-line tools into a pipeline to process data efficiently. I used `sort` to group identical lines together, `uniq -c` to count how many times each line occurred, and `grep` to filter the output and find the line whose count was exactly 1.
+
+I also learned my first practical regex concepts. `^` represents the beginning of a line, while `*` means zero or more occurrences of the preceding character. I used these together to match the count at the beginning of the `uniq -c` output. I initially used `grep '^ *1'`, which also matched `10`, because both begin with `1`. Adding a space after the `1` — `grep '^ *1 '` — made the pattern match a count of exactly 1.
+
+This level reinforced the idea that Linux commands can be chained together, with each command performing one specific task and passing its output to the next. It also introduced me to using regular expressions to make text filtering more precise.
+
+---
