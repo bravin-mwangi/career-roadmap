@@ -94,3 +94,28 @@ I also learned my first practical regex concepts. `^` represents the beginning o
 This level reinforced the idea that Linux commands can be chained together, with each command performing one specific task and passing its output to the next. It also introduced me to using regular expressions to make text filtering more precise.
 
 ---
+
+## Entry 013 — October 2026
+
+Started the TryHackMe Pre-Security learning path.
+Completed four rooms today: Offensive Security Intro, Defensive 
+Security Intro, Careers in Cyber, and Inside a Computer System.
+
+The first hands-on task used dirb to enumerate hidden directories 
+on a target web server. The tool works by trying thousands of common 
+directory names automatically and flagging any that return a 200 
+response code — meaning the page exists. Finding the hidden /bank-transfer 
+page and completing the simulated bank hack made the concept concrete.
+
+The core insight from this session: security through obscurity does 
+not work. A URL that isn't linked anywhere is still discoverable if 
+it exists on the server. This is why access control matters more than 
+hiding things.
+
+The defensive security room introduced the blue team perspective — 
+SOC analysts, threat intelligence, and incident response. Careers in 
+Cyber mapped the different roles across offensive and defensive tracks. 
+Inside a Computer covered hardware fundamentals relevant to understanding 
+how systems work at the level attackers think about.
+
+---
