@@ -98,24 +98,43 @@ This level reinforced the idea that Linux commands can be chained together, with
 ## Entry 013 — October 2026
 
 Started the TryHackMe Pre-Security learning path.
-Completed four rooms today: Offensive Security Intro, Defensive 
-Security Intro, Careers in Cyber, and Inside a Computer System.
 
-The first hands-on task used dirb to enumerate hidden directories 
-on a target web server. The tool works by trying thousands of common 
-directory names automatically and flagging any that return a 200 
-response code — meaning the page exists. Finding the hidden /bank-transfer 
-page and completing the simulated bank hack made the concept concrete.
+Completed four rooms today: **Offensive Security Intro, Defensive Security Intro, Careers in Cyber,** and **Inside a Computer System**.
 
-The core insight from this session: security through obscurity does 
-not work. A URL that isn't linked anywhere is still discoverable if 
-it exists on the server. This is why access control matters more than 
-hiding things.
+The first hands-on task introduced `dirb`, a tool used to enumerate directories on a web server. It automatically tests many common directory names and checks the responses from the server. Finding the hidden `/bank-transfer` page and completing the simulated exercise made the idea of web enumeration much more concrete.
 
-The defensive security room introduced the blue team perspective — 
-SOC analysts, threat intelligence, and incident response. Careers in 
-Cyber mapped the different roles across offensive and defensive tracks. 
-Inside a Computer covered hardware fundamentals relevant to understanding 
-how systems work at the level attackers think about.
+The biggest takeaway from the session was that **security through obscurity is not real access control**. A page doesn't become secure just because it isn't linked anywhere. If it exists on the server and can be discovered, it needs proper access controls protecting it.
+
+The Defensive Security room introduced the blue-team perspective, including SOC analysts, threat intelligence, and incident response. Careers in Cyber gave me a broader view of the different roles within cybersecurity and how offensive and defensive paths fit together.
+
+Inside a Computer System covered hardware fundamentals and how the different components of a computer work together. It was basic material, but it reinforced something important: understanding how systems actually work is part of understanding how they can be attacked and defended.
+
+This was my first proper TryHackMe session. Bandit has been teaching me to think more comfortably in the Linux command line; TryHackMe feels like the point where I'm starting to apply that kind of thinking to cybersecurity as a whole.
 
 ---
+
+## Entry 014 — October 2026
+
+Completed OverTheWire Bandit Level 10. The password was stored in `data.txt` among a few human-readable strings, with the correct string preceded by several `=` characters.
+
+I learned how to use `strings` to extract human-readable text from a file and then combine it with `grep` to progressively narrow down the results.
+
+I also learned more regular expressions:
+
+* `^` matches the beginning of a line.
+* `+` means one or more occurrences.
+* `{2,}` means at least two occurrences.
+* `grep -E` enables extended regular expressions.
+
+My final command was:
+
+```bash
+strings data.txt | grep -E '^={2,}'
+```
+
+This filtered the output down to the lines beginning with at least two `=` characters, revealing the password.
+
+This level helped me understand how multiple simple tools can be combined into a precise search. Rather than trying to find the answer in one step, I progressively narrowed the output using `strings`, pipes, and regular expressions.
+
+---
+
