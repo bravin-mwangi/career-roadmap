@@ -138,3 +138,15 @@ This level helped me understand how multiple simple tools can be combined into a
 
 ---
 
+## Entry 015 — October 2026
+
+ Completed OverTheWire Bandit level 11. I found that `data.txt` contained Base64-encoded data. I used `base64 -d data.txt` to decode it and retrieve the password for the next level.
+
+I learned that `base64` is a command-line utility for encoding and decoding data, while `-d` tells it to decode instead of encode. The command reads the contents of `data.txt` and outputs the decoded text.
+
+I also learned that Base64 is an encoding scheme, not encryption, because it changes how data is represented without keeping it secret. Encoded text can have recognizable patterns, but appearance alone isn't enough to identify an encoding with certainty.
+
+The main takeaway was to inspect unfamiliar data, use clues to form a hypothesis, and choose a tool that fits the evidence rather than blindly trying commands.
+
+---
+
