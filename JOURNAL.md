@@ -140,7 +140,7 @@ This level helped me understand how multiple simple tools can be combined into a
 
 ## Entry 015 — October 2026
 
- Completed OverTheWire Bandit level 11. I found that `data.txt` contained Base64-encoded data. I used `base64 -d data.txt` to decode it and retrieve the password for the next level.
+Completed OverTheWire Bandit level 11. I found that `data.txt` contained Base64-encoded data. I used `base64 -d data.txt` to decode it and retrieve the password for the next level.
 
 I learned that `base64` is a command-line utility for encoding and decoding data, while `-d` tells it to decode instead of encode. The command reads the contents of `data.txt` and outputs the decoded text.
 
@@ -150,3 +150,12 @@ The main takeaway was to inspect unfamiliar data, use clues to form a hypothesis
 
 ---
 
+## Entry 016 — October 2026
+
+In Bandit level 12, I found that `data.txt` contained text encoded using ROT13. I used `tr 'A-Za-z' 'N-ZA-Mn-za-m'` to rotate the letters back and reveal the password.
+
+I learned that ROT13 shifts each letter by 13 positions in the alphabet. Since the alphabet has 26 letters, applying ROT13 a second time restores the original text. I also learned that Caesar ciphers can use other rotation values, such as ROT19.
+
+The main takeaway was that recognizing patterns in unfamiliar text can help identify a likely transformation, which can then be tested and verified.
+
+---
